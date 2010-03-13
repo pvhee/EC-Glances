@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <node>
+    <field_master_applicationdeadline>2009-04-26 00:00:00</field_master_applicationdeadline>
+    <field_master_applicationpagelink></field_master_applicationpagelink>
+    <field_master_badge>http://localhost:8888/youthagora/templates/master/sites/default/files/NanotechFly.jpeg</field_master_badge>
+    <field_master_careeropportunities>Nanomat-Master opens the possibility to carry out a PhD project in academic research or private companies (80%). Employement with the Master degree can be found in microelectronics, semiconductor companies, expertise, patent... </field_master_careeropportunities>
+    <field_master_contactemail>Nadine.Witkowski@upmc.fr</field_master_contactemail>
+
+    <field_master_contactperson>Dr. Nadine Witkowski</field_master_contactperson>
+    <field_master_contactpicture></field_master_contactpicture>
+    <field_master_contactposition>Master Responsible</field_master_contactposition>
+    <field_master_contactphone>+33 1 44 27 43 42</field_master_contactphone>
+    <field_master_coursesdesc>year 1 in Uppsala :
+Quantum mechanics, statistical physics, Solid State Physics, Molecular physics, Surface interface physics + courses to choose among the master programme courses
+Year 2 in Paris : 
+Condensed matter physics, Local/non local spectroscopies,
+Functional materials, Experimental/theoretical project, intership </field_master_coursesdesc>
+    <field_master_coursesdescf></field_master_coursesdescf>
+    <field_master_coursesdescl>http://www.nanomat-master.eu/formations/detail_en.htm</field_master_coursesdescl>
+
+    <field_master_curriculumname>International Master in Material and Nanosciences</field_master_curriculumname>
+    <field_master_degreeawarded>Master</field_master_degreeawarded>
+    <field_master_master_details>1</field_master_master_details>
+    <field_master_ects>120</field_master_ects>
+    <field_master_educationalreq>Joining the year 1 in Uppsala:
+Bachelor's degree or equivalent in the physics including 75 ECTS of lectures in physics and proof of proficiency in English
+
+Joining the year 2 in Paris:
+holding a a degree at least up to a level corresponding to four years of full-time studies in the field of physics, i.e. approximately equivalent to undergraduate level</field_master_educationalreq>
+    <field_master_educationalreqf></field_master_educationalreqf>
+
+    <field_master_educationalreql>http://www.nanomat-master.eu/admissions/admission_en.htm</field_master_educationalreql>
+    <field_master_facebook></field_master_facebook>
+    <field_master_file></field_master_file>
+    <field_master_fulltime>Full</field_master_fulltime>
+    <field_master_image></field_master_image>
+    <field_master_language></field_master_language>
+    <field_master_languagereq>Proof of proficiency in English</field_master_languagereq>
+
+    <field_master_languageereqf></field_master_languageereqf>
+    <field_master_languageereql></field_master_languageereql>
+    <field_master_linkedin></field_master_linkedin>
+    <field_master_monthlyexpenses></field_master_monthlyexpenses>
+    <field_master_othercosts></field_master_othercosts>
+    <field_master_otherreq></field_master_otherreq>
+    <field_master_otherreqf></field_master_otherreqf>
+    <field_master_otherreql></field_master_otherreql>
+    <field_master_programmedesc>2 years Master in Material and Nanosciences
+year 1 : lectures at Uppsala University (UU), Sweden 
+year 2 : lectures at Pierre et Marie Curie University (UPMC) , France
+Possibility to apply for double diploma UPMC-UU</field_master_programmedesc>
+
+    <field_master_programmedescf></field_master_programmedescf>
+    <field_master_programmedescl>http://www.nanomat-master.eu/formations/organisation_en.htm</field_master_programmedescl>
+    <field_master_programmewebsite>http://www.nanomat-master.eu/index.htm</field_master_programmewebsite>
+    <field_master_qualitystatement>Double diploma UPMC-UU delivered under the condition that a minimum of 30 credits are obtained in Paris and 30 ECTS are obtained in Uppsala</field_master_qualitystatement>
+    <field_master_qualitystatementf></field_master_qualitystatementf>
+    <field_master_qualitystatementl></field_master_qualitystatementl>
+    <field_master_shortdesc>The nanosciences are currently in the center of numerous researches in various domains as the biology, the chemistry or the physics. The manufacturing of new materials presenting electronic, magnetic, optical properties connected to the extreme miniaturization, presents an increasing development  at an international level.
+
+It is in this context of innovative technologies that Pierre et Marie Curie University in Paris, the University of Uppsala in Sweden and Roma III University, join to suggest the excellent training at the master level in material and nano-sciences - Nanomat Master.</field_master_shortdesc>
+
+    <field_master_startingdate>2009-09-07 00:00:00</field_master_startingdate>
+    <field_master_studyfields>Physical sciences</field_master_studyfields>
+    <field_master_studyperiod>2</field_master_studyperiod>
+    <field_master_twitter></field_master_twitter>
+    <field_master_video></field_master_video>
+  </node>
+</xml>
