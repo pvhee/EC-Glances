@@ -29,6 +29,17 @@ function _ec_glances_node_info() {
       'min_word_count' => '0',
       'help' => '',
     ),
+    'glance_details_feed' => array(
+      'name' => t('Glance Details Feed'),
+      'module' => 'features',
+      'description' => t('Feed which generates nodes of type "glance_details". It is created by the "master" importer and contains a link to the remote XML file of the glance details at the Master Template.	'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'has_body' => '1',
+      'body_label' => t('Body'),
+      'min_word_count' => '0',
+      'help' => '',
+    ),
     'glance_feed' => array(
       'name' => t('Glance Feed'),
       'module' => 'features',
