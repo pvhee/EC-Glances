@@ -3964,16 +3964,23 @@ function _ec_glances_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_glance';
-  $strongarm->value = '2';
+  $strongarm->value = '0';
 
   $export['comment_glance'] = $strongarm;
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'comment_glance_details';
-  $strongarm->value = '2';
+  $strongarm->value = '0';
 
   $export['comment_glance_details'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_glance_details_feed';
+  $strongarm->value = '0';
+
+  $export['comment_glance_details_feed'] = $strongarm;
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
@@ -4018,10 +4025,24 @@ function _ec_glances_strongarm() {
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_glance_details_feed_pattern';
+  $strongarm->value = 'glance-details-feed/[nid]';
+
+  $export['pathauto_node_glance_details_feed_pattern'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_node_glance_details_pattern';
   $strongarm->value = 'glance-details/[nid]';
 
   $export['pathauto_node_glance_details_pattern'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_glance_feed_pattern';
+  $strongarm->value = 'glance-feed/[nid]';
+
+  $export['pathauto_node_glance_feed_pattern'] = $strongarm;
   $strongarm = new stdClass;
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
