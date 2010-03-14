@@ -35,3 +35,12 @@ function ec_glances_node_info() {
   $args = func_get_args();
   return call_user_func_array('_ec_glances_node_info', $args);
 }
+
+/**
+ * Implementation of hook_strongarm().
+ */
+function ec_glances_strongarm() {
+  module_load_include('inc', 'ec_glances', 'ec_glances.defaults');
+  $args = func_get_args();
+  return call_user_func_array('_ec_glances_strongarm', $args);
+}

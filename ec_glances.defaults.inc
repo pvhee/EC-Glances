@@ -3565,6 +3565,9 @@ function _ec_glances_ctools_plugin_api() {
   if ($module == "feeds" && $api == "feeds_importer_default") {
     return array("version" => 1);
   }
+  else if ($module == "system" && $api == "strongarm") {
+    return array("version" => 1);
+  }
 }
 
 /**
@@ -3949,5 +3952,82 @@ function _ec_glances_feeds_importer_default() {
   );
 
   $export['glance_details'] = $feeds_importer;
+  return $export;
+}
+
+/**
+ * Helper to implementation of hook_strongarm().
+ */
+function _ec_glances_strongarm() {
+  $export = array();
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_glance';
+  $strongarm->value = '2';
+
+  $export['comment_glance'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_glance_details';
+  $strongarm->value = '2';
+
+  $export['comment_glance_details'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'comment_glance_feed';
+  $strongarm->value = '0';
+
+  $export['comment_glance_feed'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_glance';
+  $strongarm->value = array(
+    '0' => 'status',
+    '1' => 'promote',
+  );
+
+  $export['node_options_glance'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_glance_details';
+  $strongarm->value = array(
+    '0' => 'status',
+    '1' => 'promote',
+  );
+
+  $export['node_options_glance_details'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_glance_details_feed';
+  $strongarm->value = array();
+
+  $export['node_options_glance_details_feed'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'node_options_glance_feed';
+  $strongarm->value = array();
+
+  $export['node_options_glance_feed'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_glance_details_pattern';
+  $strongarm->value = 'glance-details/[nid]';
+
+  $export['pathauto_node_glance_details_pattern'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_glance_pattern';
+  $strongarm->value = 'glance/[nid]';
+
+  $export['pathauto_node_glance_pattern'] = $strongarm;
   return $export;
 }
