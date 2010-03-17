@@ -44,3 +44,12 @@ function ec_glances_strongarm() {
   $args = func_get_args();
   return call_user_func_array('_ec_glances_strongarm', $args);
 }
+
+/**
+ * Implementation of hook_views_default_views().
+ */
+function ec_glances_views_default_views() {
+  module_load_include('inc', 'ec_glances', 'ec_glances.features.views');
+  $args = func_get_args();
+  return call_user_func_array('_ec_glances_views_default_views', $args);
+}
